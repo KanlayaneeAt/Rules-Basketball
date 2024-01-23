@@ -1,0 +1,230 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.3;
+}
+
+.my-backgound{
+    background-image: url('ปกบาส.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; /* ไม่ทำภาพซ้ำ*/
+    width: 99vw;
+    height: 100vh;
+    position: absolute;
+} 
+.backgound2{
+    background-color: rgb(164, 164, 164);
+    width: 99vw;
+    height: 100vh;
+    position: relative;
+    opacity: 0.3;
+    z-index: 0;
+}
+.name{
+    position: absolute;
+    top: 35vh;
+    left: 13vw;
+    z-index: 1;
+    font-size: 10vw;
+    color: rgb(255, 255, 255);
+}
+
+.backgound3{
+    background-color: rgb(98, 98, 98);
+    width: 100%;
+    /* min-height: 650vh; */
+}
+.psutop .psu{
+    z-index: 2;
+    position: absolute;
+    margin-top: 5vh;
+    margin-left: 40vw;
+    width: 8vw;
+    height: 25vh;
+}
+.box1 .img-4{
+    /* z-index: 1; */
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 4vw;
+    width: 90vw;
+    height: 30vh;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    opacity: 0.5;
+}
+
+.box1 .tit{
+    color: aliceblue;
+    padding-top: 15vh;
+    padding-left: 3vw;
+    position: relative;
+    width: 90vw;
+    height: 30vh;
+    font-size: 7vw;
+    text-align: center;
+}
+
+.box1 .tit2{
+    color: aliceblue;
+    padding-top: 15vh;
+    padding-left: 3vw;
+    position: relative;
+    width: 90vw;
+    height: 30vh;
+    font-size: 7vw;
+    text-align: center;
+}
+.box1 p{
+    padding-top: 15vh;
+    padding-left: 3vw;
+    position: relative;
+    width: 90vw;
+    height: 30vh;
+    font-size: 1.5vw;
+    text-align: left;
+}
+
+.box1-in{
+    position: relative;
+    border-radius: 50px;
+    background-color: rgb(202, 202, 202);    
+    margin-left: 5vw;
+    width: 90vw;
+    height: 85vh;
+    margin-top: 15vh;
+    
+}
+
+.box1-in .text1{    
+    padding-top: 3vh; 
+    padding-left: 5vw;
+    padding-bottom: 1vh;
+    font-size: 3vw;
+    position: absolute;
+}
+
+ .box1-in2{
+    border-radius: 50px;
+    background-color: rgb(202, 202, 202);    
+    margin-left: 5vw;
+    width: 90vw;
+    margin-top: 15vh;
+    position: relative;
+    z-index: 1;
+    overflow: auto;
+    
+} 
+
+.box1-in2 .text1{
+    padding-top: 3vh; 
+    padding-left: 2vw;
+    font-size:2vw;
+    position: absolute;
+}
+
+.box1-in2 .text2{
+    padding-top: 5vh; 
+    padding-left: 3vw;
+    font-size: 1.5vw;
+    position: absolute;
+}
+
+/* .box1-in2 .img2{
+    margin-top: 10vh;
+    margin-left: 30vw;
+    height: 30vh;
+    width: 30vw;
+    z-index: 1;
+    position: absolute;
+
+} */
+
+.box1-in2 .text3{
+    padding-top: 5vh; 
+    padding-left: 5vw;
+    font-size: 1.5vw;
+    position: absolute;
+}
+
+/* .box1-in2 .img3{
+    margin-top: 70vh;
+    margin-left: 30vw;
+    height: 30vh;
+    width: 20vw;
+    position: absolute;
+    z-index: 2;
+} */
+
+.box1-in2 .text4{
+    /* padding-top: 130vh;  */
+    padding-left: 3vw;
+    font-size: 1.5vw;
+    position: absolute;
+    /* margin-top: 30vh; */
+}
+
+.box1-in2 .text5{
+    /* padding-top: 130vh;  */
+    padding-left: 5vw;
+    font-size: 1.5vw;
+    position: absolute;
+}
+.box1-in2 .text6{
+    /* padding-top: 130vh;  */
+    padding-left: 2vw;
+    font-size:2vw;
+    position: absolute;
+}
+.box1-in2 .text7{
+    /* padding-top: 65vh;  */
+    padding-left: 3vw;
+    font-size: 1.5vw;
+    position: absolute;
+    /* margin-top: 30vh; */
+}
+
+.box1-in2 .text8{
+    /* padding-top: 65vh;  */
+    padding-left: 5vw;
+    font-size: 1.5vw;
+    position: absolute;
+}
+.box1-in2 .text9{
+    /* padding-top: 65vh;  */
+    padding-left: 2vw;
+    font-size:2vw;
+    position: absolute;
+}
+
+
+.refer{
+    position: relative;
+    border-radius: 20px;
+    background-color: rgb(202, 202, 202);    
+    margin-left: 5vw;
+    width: 90vw;
+    height: 30vh;
+    margin-top: 15vh;
+}
+
+.refer .text10{
+    /* padding-left: 2vw; */
+    font-size:1vw;
+    position: absolute;
+    padding-left: 2vw;
+}
+
+.footer{
+    text-align: center;
+    font-size: 1.4vw;
+    padding: 4vh;
+    margin-top: 10vh;
+    background-color: rgb(255, 255, 255);
+}
